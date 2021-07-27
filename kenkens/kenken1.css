@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #404a66;
+    color: rgb(2, 2, 65);
+}
+
+html {
+    font-size: 12px;
+}
+
+li { 
+    display: block; 
+    text-align: left;
+}
+
+.grid   {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    border: 4px solid black;
+    width: min(80vw, 80vh);
+    height: min(80vw, 80vh);
+    background-color: cornsilk;
+}
+
+.grid-items {
+    border: 1px solid lightgray;
+    font-size: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prompt {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.answer {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  border: none;
+  font-size: 2rem;
+  background-color: rgb(240, 236, 217);
+}
+
+#box5, #box6, #box7, #box8, #box9, #box12, #box13, #box14, #box15 {
+    border-top: 4px solid black;
+}
+#box2, #box6, #box9, #box10, #box11, #box14 {
+    border-right: 4px solid black;
+}
+
+.resetButton {
+    background-color: cornsilk;
+    height: 40px;
+    text-shadow: dimgrey;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 500px) {
+ html {
+     font-size: 16px;
+ }   
+}

@@ -1,0 +1,113 @@
+*{
+    letter-spacing: 1px;
+}
+li { 
+    display: block; 
+    text-align: left;
+}
+
+.bg-container{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #421d03;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    height: fit-content;
+   
+}
+
+.bg-container::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: fit-content;
+
+    display: block;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: -1;
+    min-height: 1200px;
+}
+
+img {
+    height: 100%;
+    display: block;
+}
+
+.contentContainer > div {
+    z-index: 2;
+    text-align: center;
+    position: relative;
+}
+
+#clock {   
+    font-size: 40px; 
+    padding: 0px;
+}
+
+#audioButton, #startButton, #stopButton, .restBttn {
+    margin-right: 20px;
+    background-color: saddlebrown;
+    color:white;
+    margin-top: 20px;
+}
+
+#stormnDaCastle {
+    font-size: 22px;
+}
+
+#output3 {
+    font-size: 15px;
+}
+
+#output2 {
+    font-size: 30px;
+}
+
+#yourGuesses {
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+}
+
+#yourGuessesBox {
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    border:5px solid saddlebrown;
+    width: 250px;
+    height: 50px;
+}
+
+.enterGuess, .prevGuesses {
+    size: 50px;
+    margin-right: 20px;
+    
+}
+
+.guessBox {
+    width: 80px;
+    height: 60px;
+    font-size: 40px;
+    border:5px solid saddlebrown;
+    background-color: transparent;
+}
+
+.form2{
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.form {
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.guessSubmit {
+    color: #f2f4f7;
+    margin-left: 50px;
+    background-color: saddlebrown;
+}
+
