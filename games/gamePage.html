@@ -10,31 +10,51 @@
 </head>
 <body>
     <div>
-        <nav>
+        <nav class="navBarUl">
             <ul>
                 <li ><a href="../home.html"> Home </a></li>
             </ul>
         </nav>
     </di>
-
     
-    <img id="playAGame" src="shallWePlayAGame.jpg" alt="SHALL WE PLAY A GAME">
-
+    <div class="imgDiv">
+        <img id="playAGame" src="shallWePlayAGame.jpg" alt="SHALL WE PLAY A GAME">
+    </div>
+  
+    
     <h1>What game would you like to play?</h1>
-    <br>
-    <div>
-        <a href="../numberGame/index.html"> <!--need to take to another page or just put a nav that says back to games-->
-            <button> Number Guessing Game </button>
-        </a>
-    </div>
-    
-    <div>
-        <a href="../kenkens/allKenKen.html"> <!--need to take to another page or just put a nav that says back to games-->
-            <button> KenKen Games </button>
-        </a>
-    </div>
 
+    <section id="sectionId">
+        <td >
+            <tr>
+                <a href="../numberGame/index.html"> 
+                    <button class="BUTTON_MUT"> Number Guessing Game </button>
+                </a>
+            </tr>
+            <tr>
+                <a href="../kenkens/allKenKen.html"> 
+                    <button class="BUTTON_MUT"> KenKen Games </button>
+                </a>
+            </tr>
+            <tr>
+                <a> 
+                    <button class="BUTTON_MUT" id="toggle"> I do nothing </button>
+                </a>
+            </tr>
+            <tr>
+                <a href="../beatBen/beatBen.html"> 
+                    <button class="BUTTON_MUT"> Beat Bens Score </button>
+                </a>
+            </tr>
+            <tr>
+                <a href="../memoryGame/public/index.js"> 
+                    <button class="BUTTON_MUT"> Memory Game </button>
+                </a>
+            </tr>
+        </td>
+        
+        </section>
 
-
+    <script src="games.js"></script>
 </body>
 </html>

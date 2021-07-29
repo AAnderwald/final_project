@@ -15,10 +15,21 @@ html {
     font-size: 12px;
 }
 
+.navBarUl {
+    color: black;
+    background-color: #7092BF;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
 li { 
     display: block; 
     text-align: left;
-}
+ }
+ 
 .grid   {
     display: grid;
     grid-template-rows: repeat(4, 1fr);

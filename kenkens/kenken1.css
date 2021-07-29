@@ -10,15 +10,28 @@ body {
     background-color: #404a66;
     color: rgb(2, 2, 65);
 }
+ #math1img {
+     
+ }
 
 html {
     font-size: 12px;
 }
 
+.navBarUl {
+    color: black;
+    background-color: #7092BF;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
 li { 
     display: block; 
     text-align: left;
-}
+ }
 
 .grid   {
     display: grid;
