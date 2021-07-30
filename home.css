@@ -1,9 +1,7 @@
 
-li { 
-    display: block; 
-    text-align: left;
+#lionImgDiv {
+    background-color: #7092BF;
 }
-
 
 #lionImg {
     display: block;
@@ -11,6 +9,67 @@ li {
     margin-right: auto;
 }
 
-#lionImgDiv {
-    background-color: #7092BF;
+.buttonDiv {
+    background-color: #52565C;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+/* bottom section */
+
+#aDiv {
+    background-color: #52565C;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class {
+    background-color: #52565C;
+    padding-bottom: 10px;
+}
+
+.BUTTON_YPO {
+    margin-right: 20px;
+    height: 90px;
+    width: 220px;
+    background: #81DB8F;
+    background-image: -webkit-linear-gradient(top, #81DB8F, #52985C);
+    background-image: -moz-linear-gradient(top, #81DB8F, #52985C);
+    background-image: -ms-linear-gradient(top, #81DB8F, #52985C);
+    background-image: -o-linear-gradient(top, #81DB8F, #52985C);
+    background-image: -webkit-gradient(to bottom, #81DB8F, #52985C);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #C8E1CC;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 30px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #000000 1px;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ 
+ .BUTTON_YPO:hover {
+    border: solid #337FED 1px;
+    background: #10421d;
+    background-image: -webkit-linear-gradient(top, #10421d, #011105);
+    background-image: -moz-linear-gradient(top, #10421d, #011105);
+    background-image: -ms-linear-gradient(top, #10421d, #011105);
+    background-image: -o-linear-gradient(top, #10421d, #011105);
+    background-image: -webkit-gradient(to bottom, #10421d, #011105);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }

@@ -2,6 +2,9 @@ li {
     display: block; 
     text-align: left;
 }
+pre {
+    font-size: 20px;
+}
 
 .navBarUl {
     color: black;
@@ -11,4 +14,101 @@ li {
     top: 0;
     width: 100%;
     left: 0;
+}
+
+#loganStory {
+    margin-top: 80px;
+    background-color: #51c7d6;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    padding-left: 160px;
+    
+}
+
+.carousel {
+    position: relative;
+    height: 600px;
+}
+
+.logan-text {
+    text-align: left;
+    font-size: 42px;
+}
+
+#Logan1month {
+    width: 270px;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#Logana1 {
+    width: 270px;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#Logan1 {
+    width: 270px;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#Logan2 {
+    width: 400px;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#Logan3 {
+    width: 270px;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#Logan4 {
+    width: 270px;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#Logan5 {
+    width: 270px;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#Logan6 {
+    width: 270px;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+#Logan66 {
+    width: 270px;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#Logan7 {
+    width: 270px;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#sgViewer{
+    margin-left: 80px;
+    margin-bottom: 10px;
 }

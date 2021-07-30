@@ -1,0 +1,20 @@
+li { 
+    display: block; 
+    text-align: left;
+}
+
+.navBarUl {
+    color: black;
+    background-color: #7092BF;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+#bigDiv {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 5px;
+}
