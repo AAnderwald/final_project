@@ -1,13 +1,15 @@
 
 #lionImgDiv {
     background-color: #7092BF;
-}
+ }
 
 #lionImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+ }
+
+/* middle section with button */
 
 .buttonDiv {
     background-color: #52565C;
@@ -15,23 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-/* bottom section */
-
-#aDiv {
-    background-color: #52565C;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.class {
-    background-color: #52565C;
-    padding-bottom: 10px;
-}
+ }
 
 .BUTTON_YPO {
     margin-right: 20px;
@@ -72,4 +58,23 @@
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
+ }
+
+    
+ /* bottom section */
+
+#aDiv {
+    background-color: #52565C;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.button {
+    background-color: #52565C;
+    padding-bottom: 10px;
+    color: #52565C;
+    margin-right: 10px;
+    border-width: 0;
  }

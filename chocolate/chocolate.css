@@ -1,0 +1,161 @@
+* {
+    letter-spacing: 1px;
+    font-family: 'Gowun Batang', serif;
+}
+
+
+/*nav bar section*/
+
+.navBarUl {
+    color: black;
+    background-color: #7092BF;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+li { 
+    display: block; 
+    text-align: left;
+}
+
+
+
+/*chocolate section */ 
+ 
+h2 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* white chocolate section */
+
+#wcMainDiv {
+    margin-top: 55px;
+    background-color: #FFFDCE;
+    height: 292px;
+    position: relative;
+}
+#wcInfoDiv {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#wcBtn{
+    background: #471D0F;
+    color: #FFFDCE;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+#wcOutput {
+    width: 70%;
+    position: absolute;
+}
+
+#wcMake {
+    margin-left: 40px;
+    position: absolute;
+    bottom: 20px;   
+}
+
+#wcClick {
+    color: #471D0F;
+}
+
+
+
+  /* milk chocolate section  */
+
+#mcMainDiv {
+   display: flow-root;
+   background-color: #7B462D;
+   height:292px;
+   position: relative;
+}
+
+#mcInfoDiv {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#mcBtn{
+    background: #FFFDCE;
+    color: #471D0F;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+#mcOutput {
+    width: 70%;
+    position: absolute;
+    
+}
+
+#mcMake {
+    margin-left: 40px;
+    position: absolute;
+    bottom: 20px;   
+}
+
+#mcClick {
+    color: #FFFDCE;
+}
+
+
+
+/* dark chocolate section  */
+
+#dcMainDiv {
+    display: flow-root;
+    background-color: #471D0F;
+    height: 292px;
+    position: relative;
+    color: #FFFDCE;
+}
+
+#dcInfoDiv {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#dcBtn{
+    background: #7B462D;
+    color: #FFFDCE;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+#dcOutput {
+    width: 70%;
+    position: absolute;
+}
+
+#dcMake {
+    margin-left: 40px;
+    position: absolute;
+    bottom: 20px;   
+}
+
+#dcClick {
+    color: #FFFDCE;
+}
+
+
+

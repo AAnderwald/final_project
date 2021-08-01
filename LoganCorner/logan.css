@@ -2,9 +2,6 @@ li {
     display: block; 
     text-align: left;
 }
-pre {
-    font-size: 20px;
-}
 
 .navBarUl {
     color: black;
@@ -14,6 +11,10 @@ pre {
     top: 0;
     width: 100%;
     left: 0;
+
+}
+pre {
+    font-size: 15px;
 }
 
 #loganStory {
