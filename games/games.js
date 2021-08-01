@@ -16,7 +16,7 @@
 let count = 0;
 
 let button = document.getElementById('toggle');
-let messages = [ "I am a button", "I do nothing", "Keep pressing nothing will happen", "stop, just stop", "Since you like to click go play Ben's game"];
+let messages = [ "I am a button", "I do nothing", "Keep pressing nothing will happen", "Stop, just stop", "Since you like to click go play Ben's game"];
 function go(e){  
     button.innerHTML = messages[count];
     if (count == messages.length -1){  

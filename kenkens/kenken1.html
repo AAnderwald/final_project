@@ -24,12 +24,17 @@
                 <li ><a href="allKenKen.html"> Back to KenKen </a></li>
             </ul>
         </nav>
-    </div>
+
+      </div>
       
       <h1>KenKen 1</h1>
-
-      <form >
-           
+      
+      <div class="ansImg">
+        <button class="answerButton" type="button" onclick="toggleOne()"> Click for the answer</button>
+        <img src="aOne.png" alt="answer" class="answerAll" id="oneA" style="display: none">
+      </div>
+      
+      <form>
         <div class="grid">
           <div id="box1" class="grid-items">
             <span class="prompt">8X</span> 
@@ -100,7 +105,8 @@
         <br>
         <input class="resetButton" type="reset" value="Reset Game">
       </form>
-
+      
+      <script src="kenkenA.js"></script>
     </main>
   </body>
 </html>
