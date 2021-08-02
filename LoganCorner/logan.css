@@ -1,115 +1,309 @@
-li { 
-    display: block; 
-    text-align: left;
-}
+/* nav bar  */
+    .navBarUl {
+        color: black;
+        background-color: #7092BF;
+        height: 55px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+        
+    }
+    #navBarLi { 
+        display: block; 
+        text-align: left;
+    }
 
-.navBarUl {
-    color: black;
-    background-color: #7092BF;
-    height: 55px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    left: 0;
 
-}
-pre {
-    font-size: 15px;
-}
+/* carousel  */
+    pre {
+        font-size: 15px;
+    }
 
-#loganStory {
-    margin-top: 80px;
-    background-color: #51c7d6;
-}
+    #loganStory {
+        margin-top: 80px;
+        background-color: #51c7d6;
+    }
 
-.carousel-inner {
-    position: relative;
-    width: 80%;
-    overflow: hidden;
-    padding-left: 160px;
-    
-}
+    .carousel-inner {
+        position: relative;
+        width: 80%;
+        overflow: hidden;
+        padding-left: 160px;
+        
+    }
 
-.carousel {
-    position: relative;
-    height: 600px;
-}
+    .carousel {
+        position: relative;
+        height: 600px;
+    }
 
-.logan-text {
-    text-align: left;
-    font-size: 42px;
-}
+    .logan-text {
+        text-align: left;
+        font-size: 42px;
+    }
 
-#Logan1month {
-    width: 270px;
-    height: auto;
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
+    #Logan1month {
+        width: 270px;
+        height: auto;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
 
-#Logana1 {
-    width: 270px;
-    height: auto;
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
+    #Logana1 {
+        width: 270px;
+        height: auto;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
 
-#Logan1 {
-    width: 270px;
-    height: auto;
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
+    #Logan1 {
+        width: 270px;
+        height: auto;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
 
-#Logan2 {
-    width: 400px;
-    height: auto;
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
+    #Logan2 {
+        width: 400px;
+        height: auto;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
 
-#Logan3 {
-    width: 270px;
-    height: auto;
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
+    #Logan3 {
+        width: 270px;
+        height: auto;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
 
-#Logan4 {
-    width: 270px;
-    height: auto;
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
+    #Logan4 {
+        width: 270px;
+        height: auto;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
 
-#Logan5 {
-    width: 270px;
-    height: auto;
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
+    #Logan5 {
+        width: 270px;
+        height: auto;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
 
-#Logan6 {
-    width: 270px;
-    height: auto;
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
-#Logan66 {
-    width: 270px;
-    height: auto;
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
+    #Logan6 {
+        width: 270px;
+        height: auto;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
+    #Logan66 {
+        width: 270px;
+        height: auto;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
 
-#Logan7 {
-    width: 270px;
-    height: auto;
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
+    #Logan7 {
+        width: 270px;
+        height: auto;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
 
-#sgViewer{
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
+    #sgViewer{
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
+
+
+/* floating boxes   */
+
+    .animation-area {
+        min-height: 100vh;  
+        background: linear-gradient(#51c7d6 70% ,#132f33 ); 
+    }
+    .box-area {
+        margin-top: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .box-area li {
+        position: absolute;
+        display: block;
+        list-style: none;
+        width: 80px;
+        height: 80px;
+        background: url(./floatImg/axoloti.jpg);
+        animation: animate 20s linear infinite;
+        bottom: -150px;
+        background-repeat: no-repeat;
+    }
+    .box-area li:nth-child(1) {
+        left: 86%;
+        width: 130px;
+        height: 120px;
+        background: url(./floatImg/dragon.jpg);
+        animation-delay: 0s;
+        background-repeat: no-repeat;
+    }
+    .box-area li:nth-child(2) {
+        left: 12%;
+        width: 40px;
+        height: 40px;
+        background: url(./floatImg/rocks.jpg);
+        animation-delay: 1.5s;
+        animation-duration: 10s;
+        background-repeat: no-repeat;
+    }
+    .box-area li:nth-child(3) {
+        left: 70%;
+        width: 105px;
+        height: 105px;
+        background: url(./floatImg/hedgehog.jpg);
+        animation-delay: 5.5s;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+    }
+    .box-area li:nth-child(4) {
+        left: 42%;
+        width: 150px;
+        height: 150px;
+        background: url(./floatImg/squirrel.jpg);
+        animation-delay: 0s;
+        animation-duration: 15s;
+        background-repeat: no-repeat;
+        border-radius: 20%;
+    }
+    .box-area li:nth-child(5) {
+        left: 38%;
+        width: 150px;
+        height: 150px;
+        background: url(./floatImg/fish.jpg);
+        animation-delay: 5s;
+        animation-duration: 15s;
+        background-repeat: no-repeat;
+    }
+    .box-area li:nth-child(6) {
+        left: 26%;
+        width: 93px;
+        height: 93px;
+        background: url(./floatImg/minecraft.jpg);
+        animation-delay: 0s;
+        background-repeat: no-repeat;
+        border-radius: 20%;
+    }
+    .box-area li:nth-child(7) {
+        left: 65%;
+        width: 70px;
+        height: 190px;
+        background: url(./floatImg/multicraft.jpg);
+        animation-delay: 0s;
+        animation-duration: 11s;
+        background-repeat: no-repeat;
+        border-radius: 10%;
+    }
+    .box-area li:nth-child(8) {
+        left: 15%;
+        width: 110px;
+        height: 110px;
+        background: url(./floatImg/music.jpg);
+        animation-delay: 3.5s;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+    }
+    .box-area li:nth-child(9) {
+        left: 52%;
+        width: 110px;
+        height: 110px;
+        background: url(./floatImg/pawpatrol.jpg);
+        animation-delay: 12.5s;
+        animation-duration: 11s;
+        background-repeat: no-repeat;
+    }
+    .box-area li:nth-child(10) {
+        left: 90%;
+        width: 110px;
+        height: 110px;
+        background: url(./floatImg/wolfImage.jpg);
+        animation-delay: 11.5s;
+        background-repeat: no-repeat;
+    }
+    .box-area li:nth-child(11) {
+        left: 29%;
+        width: 56px;
+        height: 56px;
+        background: url(./floatImg/snail.jpg);
+        animation-delay: 10s;
+        background-repeat: no-repeat;
+    }
+    .box-area li:nth-child(12) {
+        left: 73%;
+        width: 95px;
+        height: 95px;
+        background: url(./floatImg/roblox.jpg);
+        animation-delay: 9.5s;
+        animation-duration: 11s;
+        background-repeat: no-repeat;
+    }
+    .box-area li:nth-child(13) {
+        left: 9%;
+        width: 100px;
+        height: 80px;
+        background: url(./floatImg/ocean.jpg);
+        animation-delay: 10.5s;
+        animation-duration: 20s;
+        background-repeat: no-repeat;
+        border-radius: 20%;
+    }
+    .box-area li:nth-child(14) {
+        left: 57%;
+        width: 180px;
+        height: 100px;
+        background: url(./floatImg/forest.jpg);
+        animation-delay: 2s;
+        animation-duration: 10s;
+        background-repeat: no-repeat;
+    }
+    .box-area li:nth-child(15) {
+        left: 4%;
+        width: 100px;
+        height: 80px;
+        background: url(./floatImg/bear.jpg);
+        animation-delay: 4.5s;
+        background-repeat: no-repeat;
+        border-radius: 20%;
+    }
+    .box-area li:nth-child(16) {
+        left: 35%;
+        width: 76px;
+        height: 106px;
+        background: url(./floatImg/jgates.jpg);
+        animation-delay: 6s;
+        background-repeat: no-repeat;
+    }
+    .box-area li:nth-child(17) {
+        left: 48%;
+        width: 100px;
+        height: 170px;
+        background: url(./floatImg/monsters.jpg);
+        animation-delay: 3s;
+        background-repeat: no-repeat;
+    }
+
+
+    @keyframes animate {
+        0% {
+            transform: translateY(0) rotate(0deg);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(-800px) rotate(360deg);
+            opacity: 0;
+        }
+    }

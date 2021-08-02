@@ -71,16 +71,25 @@ li {
     text-align: center;
  }
 
-#btnDiv{
+.btnDiv{
     text-align: center;
 }
 
  #btn {
     margin-top: 50px;
-    width: 400px;
+    width: 320px;
     height: 40px;
     background-color: #273344;
     color: #8aa0bd;
     font-size: 20px;
  }
 
+ #refreshPage
+ {
+    margin-top: 2px;
+    width: 180px;
+    height: 40px;
+    background-color: #273344;
+    color: #8aa0bd;
+    font-size: 20px;
+ }

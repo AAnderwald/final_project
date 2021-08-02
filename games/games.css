@@ -45,7 +45,21 @@ h1 {
     margin-right: auto;
     width: 50%;
     border-radius: 50px;
+    -webkit-animation: fadeIn 5s;
+  
 }
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+
+  
+
+  
+
+  
+
 
 #sectionId {
     display: flex;

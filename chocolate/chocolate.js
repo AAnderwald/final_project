@@ -21,9 +21,10 @@ function go(e){
         Going through a lengthy process the bean finally grounded into a paste called liquor.
         This liquor is divided into cocoa solids and cocoa butter.`;}
         out.innerHTML = message;
-        console.log(count)
-        count ++;
+        count++;
 } document.getElementById('wcBtn').addEventListener('click', go);
+
+
 
 // milk chocolate button
 
