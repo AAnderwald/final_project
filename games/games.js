@@ -28,10 +28,8 @@ function go(e){
 } button.addEventListener('click', go);
 
 
-// audio 
 
-window.addEventListener("DOMContentLoaded", event => {
-    const audio = document.querySelector("audio");
-    audio.volume = 0.8;
-    audio.play();
-  });
+// audio 
+const mySound = document.getElementById("sound").play();
+
+ 

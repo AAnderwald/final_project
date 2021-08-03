@@ -2,17 +2,6 @@ li {
     display: block; 
     text-align: left;
 }
-
-button {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: orange;
-}
-
-.answerAll {
-    color: #743510;
-}
-
 .navBarUl {
     color: black;
     background-color: #7092BF;
@@ -23,12 +12,30 @@ button {
     left: 0;
 }
 
+
+
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #743510;
+    color: linen;
+}
+
+.answerAll {
+    color: #743510;
+}
+
+
 #bigDiv {
-    margin-top: 80px;
+    height: 1000px;
+    margin-top: 55px;
+    background:linear-gradient(#d6c5e7, linen) ;
 }
 
 .divMargin {
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 50px;
     padding: 10px;
@@ -36,4 +43,5 @@ button {
     width: 300px;
     float: left;
     border: 3px solid #5f3106;
+    background:linear-gradient(linen, rosybrown) ;
 }

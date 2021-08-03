@@ -11,7 +11,7 @@
     <title> chocolate </title>
 </head>
 <body>
-
+  
     <div>
         <nav class="navBarUl">
             <ul>
@@ -20,10 +20,29 @@
         </nav>
     </di>
 
+    <div id="recipes">
+        <div id="imageModalC">
+            <a data-modal-target="#modal">
+                <img id="mixChocolate" style="float: center" src="./chocolateImg/chocolateButton.jpg" alt="">
+            </a>    
+            <div class="centeredImgText">Try these recipes</div>
+        </div>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <div class="title"> Chocolate Recipes </div>
+                <button data-close-button class="close-button">&times;</button> 
+            </div>
+            <div class="modal-body">another recipe</div>
+        </div>
+        <div id="overlay"> </div>
+    </div>
+
+
     <div id="wcMainDiv">
         <h2>White Chocolate</h2>
         <div id="wcInfoDiv">
-            <img style="float: right" id="mcImg" src="./chocolateImg/whiteChocolate.jpg" alt="">
+            
+            <img style="float: right" class="chocolateAllImg"  src="./chocolateImg/whiteChocolate.jpg" alt="">
             <button type="document" id="wcBtn"> Learn More </button>
             <p id="wcOutput"></p>
         </div>
@@ -36,7 +55,7 @@
     <div id="mcMainDiv">
         <h2>Milk Chocolate</h2>
         <div id="mcInfoDiv">
-            <img style="float: right" id="mcImg" src="./chocolateImg/milkChocolate.jpg" alt="">
+            <img style="float: right" class="chocolateAllImg"  src="./chocolateImg/milkChocolate.jpg" alt="">
             <button type="document" id="mcBtn"> Learn More </button>
             <p id="mcOutput"></p>
         </div>
@@ -48,7 +67,7 @@
     <div id ="dcMainDiv">
         <h2>Dark Chocolate</h2>
         <div id="dcInfoDiv">
-            <img style="float: right" id="mcImg" src="./chocolateImg/darkChocolate.jpg" alt="">
+            <img style="float: right" class="chocolateAllImg"  src="./chocolateImg/darkChocolate.jpg" alt="">
             <button type="document" id="dcBtn"> Learn More </button>
             <p id="dcOutput"></p>
         </div>
@@ -57,7 +76,6 @@
         </div>
     </div>
 
-  
     <script src="chocolate.js"></script>
 </body>
 </html>

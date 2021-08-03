@@ -1,64 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="games.css" />
-    <title>Document</title>
-    
-</head>
-<body>
-    <div>
-        <nav class="navBarUl">
-            <ul>
-                <li ><a href="../home.html"> Home </a></li>
-            </ul>
-        </nav>
-    </di>
-    
-    <div class="imgDiv">
-        <img id="playAGame" src="shallWePlayAGame.jpg" alt="SHALL WE PLAY A GAME">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="games.css" />
+        <title>Document</title>
         
-    </div>
-    
-    <audio src="shallWePlayAGame.mp3"></audio>
-  
-    
-    <h1>What game would you like to play?</h1>
+    </head>
 
-    <section id="sectionId">
-        <td >
-            <tr>
-                <a href="../numberGame/index.html"> 
-                    <button class="BUTTON_MUT"> Number Guessing Game </button>
-                </a>
-            </tr>
-            <tr>
-                <a href="../kenkens/allKenKen.html"> 
-                    <button class="BUTTON_MUT"> KenKen Games </button>
-                </a>
-            </tr>
-            <tr>
-                <a> 
-                    <button type ="button" class="BUTTON_MUT" id="toggle"> I am a button </button>
-                    <p id="messages"></p>
-                </a>
-            </tr>
-            <tr>
-                <a href="../beatBen/beatBen.html"> 
-                    <button class="BUTTON_MUT"> Beat Bens Score </button>
-                </a>
-            </tr>
-            <tr>
-                <a href="../memoryGame/public/index.hml"> 
-                    <button class="BUTTON_MUT"> Memory Game </button>
-                </a>
-            </tr>
-        </td>
+    <body>
+        <div>
+            <nav class="navBarUl">
+                <ul>
+                    <li ><a href="../home.html"> Home </a></li>
+                </ul>
+            </nav>
+        </di>
         
+        <div class="imgDiv">
+            <img id="playAGame" src="shallWePlayAGame.jpg" alt="SHALL WE PLAY A GAME">
+        </div>
+        
+        <h1>What game would you like to play?</h1>
+
+        <section id="sectionId">
+            <td >
+                <tr>
+                    <a href="../numberGame/index.html"> 
+                        <button class="BUTTON_MUT"> Number Guessing Game </button>
+                    </a>
+                </tr>
+                <tr>
+                    <a href="../kenkens/allKenKen.html"> 
+                        <button class="BUTTON_MUT"> KenKen Games </button>
+                    </a>
+                </tr>
+                <tr>
+                    <a> 
+                        <button class="BUTTON_MUT" type="button" id="toggle"> I am a button </button>
+                        
+                    </a>
+                </tr>
+                <tr>
+                    <a href="../beatBen/beatBen.html"> 
+                        <button class="BUTTON_MUT"> Beat Bens Score </button>
+                    </a>
+                </tr>
+                <tr>
+                    <a href="../memoryGame/public/index.hml"> 
+                        <button class="BUTTON_MUT"> Memory Game </button>
+                    </a>
+                </tr>
+            </td>
         </section>
+        
+        <audio id ="sound" src="shallWePlayAGame.mp3" autoplay="true" muted=”muted”></audio>
 
-    <script src="games.js"></script>
-</body>
+        <script src="games.js"></script>
+    </body>
 </html>

@@ -1,0 +1,71 @@
+* {
+    letter-spacing: 1px;
+    font-family: 'Gowun Batang', serif;
+}
+
+body{
+    background-color: #777674; 
+}
+
+
+
+/*nav bar section*/
+    .navBarUl {
+        color: black;
+        background-color: #7092BF;
+        height: 55px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+    li { 
+        display: block; 
+        text-align: left;
+    }
+
+
+/* intro div  */
+    #h2Div { 
+        display: flex;
+   }
+    
+    h2 {
+        margin-top: 70px;
+        margin-bottom: 100px;
+        color: #103610;
+        margin-left: 20px;
+    }
+
+    
+/* Slideshow container */
+    #imagesDiv{
+        display: flex;
+    }
+
+    .slideshow-container {
+        max-width: 450px;
+        position: relative;
+        margin: auto;
+        border: 1px solid #011101;
+    }
+
+
+/* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 8s;
+        animation-name: fade;
+        animation-duration: 8s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+

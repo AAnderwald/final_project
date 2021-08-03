@@ -5,156 +5,235 @@
 
 
 /*nav bar section*/
-
-.navBarUl {
-    color: black;
-    background-color: #7092BF;
-    height: 55px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    left: 0;
-}
-li { 
-    display: block; 
-    text-align: left;
-}
-
+    .navBarUl {
+        color: black;
+        background-color: #7092BF;
+        height: 55px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+    li { 
+        display: block; 
+        text-align: left;
+    }
 
 
 /*chocolate section */ 
- 
-h2 {
-    margin-top: 10px;
-    margin-left: 20px;
-}
+     h2 {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .chocolateAllImg {
+        border-radius: 5%;
+        height: 150px;
+        width: auto;
+    }
+
+
+/* recipes  */
+    #recipes {
+        margin-top: 55px;
+        background-color: #e0d3d3fd;
+        height: 150px;
+        position: relative;
+        text-align: center;
+    }
+    #mixChocolate {
+        position: relative;
+        border-radius: 80%;
+        height: 120px;
+        width: auto;
+        margin-top: 15px;
+    }
+    .centeredImgText {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #f6f6f6;
+        font-weight: bolder;
+        font-size: 19px;
+    }
+
+
+    .modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: 200ms ease-in-out;
+        border: 1px solid black;
+        border-radius: 10px;
+        z-index: 10;
+        background-color: rgb(194, 194, 194);
+        width: 500px;
+        max-width: 80%;
+    }
+    .modal.active {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    .modal-header {
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+    }
+    .modal-header .title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .modal-header .close-button {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .modal-body {
+        padding: 10px 15px;
+    }
+    #overlay {  
+        position: fixed;
+        opacity: 0;
+        transition: 200ms ease-in-out;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(119, 112, 112, 0.363);
+        pointer-events: none;
+    }
+    #overlay.active {  
+        opacity: 1;
+        pointer-events: all;
+    }
+
 
 /* white chocolate section */
+    #wcMainDiv {
+        display: flow-root;
+        background-color: #FFFDCE;
+        height: 280px;
+        position: relative;
+    }
 
-#wcMainDiv {
-    margin-top: 55px;
-    background-color: #FFFDCE;
-    height: 292px;
-    position: relative;
-}
-#wcInfoDiv {
-    margin-left: 40px;
-    margin-right: 40px;
-}
+    #wcInfoDiv {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 
-#wcBtn{
-    background: #471D0F;
-    color: #FFFDCE;
-    font-size: 14px;
-    font-weight: bold;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 15px;
-  }
-  
-#wcOutput {
-    width: 70%;
-    position: absolute;
-}
+    #wcBtn{
+        background: #471D0F;
+        color: #FFFDCE;
+        font-size: 14px;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 15px;
+    }
 
-#wcMake {
-    margin-left: 40px;
-    position: absolute;
-    bottom: 20px;   
-}
+    #wcOutput {
+        width: 70%;
+        position: absolute;
+    }
 
-#wcClick {
-    color: #471D0F;
-}
+    #wcMake {
+        margin-left: 40px;
+        position: absolute;
+        bottom: 20px;   
+    }
+
+    #wcClick {
+        color: #471D0F;
+    }
 
 
-  /* milk chocolate section  */
+/* milk chocolate section  */
+    #mcMainDiv {
+        display: flow-root;
+        background-color: #7B462D;
+        height: 280px;
+        position: relative;
+    }
 
-#mcMainDiv {
-   display: flow-root;
-   background-color: #7B462D;
-   height:292px;
-   position: relative;
-}
+    #mcInfoDiv {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 
-#mcInfoDiv {
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-#mcBtn{
-    background: #FFFDCE;
-    color: #471D0F;
-    font-size: 14px;
-    font-weight: bold;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 15px;
-  }
-  
-#mcOutput {
-    width: 70%;
-    position: absolute;
+    #mcBtn{
+        background: #FFFDCE;
+        color: #471D0F;
+        font-size: 14px;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 15px;
+    }
     
-}
+    #mcOutput {
+        width: 70%;
+        position: absolute;
+        
+    }
 
-#mcMake {
-    margin-left: 40px;
-    position: absolute;
-    bottom: 20px;   
-}
+    #mcMake {
+        margin-left: 40px;
+        position: absolute;
+        bottom: 20px;   
+    }
 
-#mcClick {
-    color: #FFFDCE;
-}
-
+    #mcClick {
+        color: #FFFDCE;
+    }
 
 
 /* dark chocolate section  */
+    #dcMainDiv {
+        display: flow-root;
+        background-color: #471D0F;
+        height: 280px;
+        position: relative;
+        color: #FFFDCE;
+    }
 
-#dcMainDiv {
-    display: flow-root;
-    background-color: #471D0F;
-    height: 292px;
-    position: relative;
-    color: #FFFDCE;
-}
+    #dcInfoDiv {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 
-#dcInfoDiv {
-    margin-left: 40px;
-    margin-right: 40px;
-}
+    #dcBtn{
+        background: #7B462D;
+        color: #FFFDCE;
+        font-size: 14px;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 15px;
+    }
+    
+    #dcOutput {
+        width: 70%;
+        position: absolute;
+    }
 
-#dcBtn{
-    background: #7B462D;
-    color: #FFFDCE;
-    font-size: 14px;
-    font-weight: bold;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 15px;
-  }
-  
-#dcOutput {
-    width: 70%;
-    position: absolute;
-}
+    #dcMake {
+        margin-left: 40px;
+        position: absolute;
+        bottom: 20px;   
+    }
 
-#dcMake {
-    margin-left: 40px;
-    position: absolute;
-    bottom: 20px;   
-}
-
-#dcClick {
-    color: #FFFDCE;
-}
-
-
-
+    #dcClick {
+        color: #FFFDCE;
+    }

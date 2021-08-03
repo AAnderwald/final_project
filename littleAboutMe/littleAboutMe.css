@@ -18,3 +18,8 @@ li {
     text-align: center;
     font-size: 5px;
 }
+
+
+body {
+    background: radial-gradient(#ecb0b0, #c3c3db, #cde7cd);
+}

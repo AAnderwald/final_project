@@ -1,80 +1,108 @@
+*  {
+   letter-spacing: 1px;
+}
 
-#lionImgDiv {
-    background-color: #7092BF;
- }
+/* top section */
+   #thingsTMMTDiv {
+      background-color: #7092BF;
+      display: flex;
+      height: 55px;
+   }
+   
+   #thingsTMMTP{
+      text-align: left;
+      font-size: 30px;
+      color: #10421d;
+      font-weight: bolder;
+      margin-left: 30px;
+   }
 
-#lionImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
+/* top lion section  */
+   #lionImgDiv {
+      background-color: #7092bf;
+      display: flex;
+   }
+   #lionImg {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   #clouds {
+      height: 300px;
+      margin-left: 20px;
+      margin-top: 80px;
+   }
+   #cloudsTwo {
+      height: 250px;
+      margin-left: 20px;
+      margin-top: 5px;
+   }
 
 /* middle section with button */
+   .buttonDiv {
+      background-color: #52565C;
+      height: 360px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
 
-.buttonDiv {
-    background-color: #52565C;
-    height: 380px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
-.BUTTON_YPO {
-    margin-right: 20px;
-    height: 90px;
-    width: 220px;
-    background: #81DB8F;
-    background-image: -webkit-linear-gradient(top, #81DB8F, #52985C);
-    background-image: -moz-linear-gradient(top, #81DB8F, #52985C);
-    background-image: -ms-linear-gradient(top, #81DB8F, #52985C);
-    background-image: -o-linear-gradient(top, #81DB8F, #52985C);
-    background-image: -webkit-gradient(to bottom, #81DB8F, #52985C);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    color: #C8E1CC;
-    font-family: Helvetica;
-    font-size: 20px;
-    font-weight: 100;
-    padding: 30px;
-    -webkit-box-shadow: 1px 1px 20px 0 #000000;
-    -moz-box-shadow: 1px 1px 20px 0 #000000;
-    box-shadow: 1px 1px 20px 0 #000000;
-    text-shadow: 1px 1px 20px #000000;
-    border: solid #000000 1px;
-    text-decoration: none;
-    cursor: pointer;
- }
- 
- .BUTTON_YPO:hover {
-    border: solid #337FED 1px;
-    background: #10421d;
-    background-image: -webkit-linear-gradient(top, #10421d, #011105);
-    background-image: -moz-linear-gradient(top, #10421d, #011105);
-    background-image: -ms-linear-gradient(top, #10421d, #011105);
-    background-image: -o-linear-gradient(top, #10421d, #011105);
-    background-image: -webkit-gradient(to bottom, #10421d, #011105);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    text-decoration: none;
- }
+   .BUTTON_YPO {
+      margin-right: 20px;
+      height: 90px;
+      width: 220px;
+      background: #81DB8F;
+      background-image: -webkit-linear-gradient(top, #81DB8F, #52985C);
+      background-image: -moz-linear-gradient(top, #81DB8F, #52985C);
+      background-image: -ms-linear-gradient(top, #81DB8F, #52985C);
+      background-image: -o-linear-gradient(top, #81DB8F, #52985C);
+      background-image: -webkit-gradient(to bottom, #81DB8F, #52985C);
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      color: #C8E1CC;
+      font-family: Helvetica;
+      font-size: 20px;
+      font-weight: 100;
+      padding: 30px;
+      -webkit-box-shadow: 1px 1px 20px 0 #000000;
+      -moz-box-shadow: 1px 1px 20px 0 #000000;
+      box-shadow: 1px 1px 20px 0 #000000;
+      text-shadow: 1px 1px 20px #000000;
+      border: solid #000000 1px;
+      text-decoration: none;
+      cursor: pointer;
+   }
+   
+   .BUTTON_YPO:hover {
+      border: solid #337FED 1px;
+      background: #10421d;
+      background-image: -webkit-linear-gradient(top, #10421d, #011105);
+      background-image: -moz-linear-gradient(top, #10421d, #011105);
+      background-image: -ms-linear-gradient(top, #10421d, #011105);
+      background-image: -o-linear-gradient(top, #10421d, #011105);
+      background-image: -webkit-gradient(to bottom, #10421d, #011105);
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      text-decoration: none;
+   }
 
     
  /* bottom section */
 
-#aDiv {
-    background-color: #52565C;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+   #aDiv {
+      background-color: #52565C;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
 
-.button {
-    background-color: #52565C;
-    padding-bottom: 10px;
-    color: #52565C;
-    margin-right: 10px;
-    border-width: 0;
- }
+   .button {
+      background-color: #50555a;
+      padding-bottom: 10px;
+      color: #50555a;
+      margin-right: 10px;
+      border-width: 0;
+   }
