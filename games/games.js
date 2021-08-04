@@ -30,6 +30,6 @@ function go(e){
 
 
 // audio 
-const mySound = document.getElementById("sound").play();
+// const mySound = document.getElementById("sound").play();
 
  
