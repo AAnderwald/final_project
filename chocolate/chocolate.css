@@ -118,7 +118,7 @@
     #wcMainDiv {
         display: flow-root;
         background-color: #FFFDCE;
-        height: 280px;
+        height: 260px;
         position: relative;
         color: #3a180c;
     }
@@ -160,7 +160,7 @@
     #mcMainDiv {
         display: flow-root;
         background-color: #7B462D;
-        height: 280px;
+        height: 260px;
         position: relative;
         color: #FFFDCE;
     }
@@ -203,7 +203,7 @@
     #dcMainDiv {
         display: flow-root;
         background-color: #471D0F;
-        height: 280px;
+        height: 260px;
         position: relative;
         color: #FFFDCE;
     }

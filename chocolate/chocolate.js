@@ -62,8 +62,6 @@ let countD = 0;
 
 
 
-
-
 // recipe section 
 
   const openModalButtons = document.querySelectorAll('[data-modal-target]')
