@@ -3,10 +3,15 @@
 }
 
 /* top section */
-   #thingsTMMTDiv {
-      background-color: #7092BF;
+   #topDiv {
       display: flex;
       height: 55px;
+      width: 100%;
+   }
+
+   #thingsTMMTDiv {
+      background-color: #7092BF;
+      width: 600px;
    }
    
    #thingsTMMTP{
@@ -14,7 +19,20 @@
       font-size: 30px;
       color: #10421d;
       font-weight: bolder;
-      margin-left: 30px;
+      margin-left: 10px;
+   }
+
+   #myNameDiv {
+      background-color: #7092BF;
+      width: 100%;
+   }
+
+   #myName{
+      text-align: right;
+      font-size: 30px;
+      color: #10421d;
+      font-weight: bolder;
+      margin-right: 10px;
    }
 
 /* top lion section  */
@@ -106,3 +124,14 @@
       margin-right: 10px;
       border-width: 0;
    }
+
+@media (min-width: 500px) {
+   html {
+         font-size: 16px;
+   }   
+}
+@media (min-width:720px){  /* rule applies if greater than 720px*/
+   .buttonDiv{
+       min-height: 350px;      /*overwrites teh 100px*/
+   }
+}

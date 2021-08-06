@@ -28,8 +28,6 @@ function go(e){
 } button.addEventListener('click', go);
 
 
-
 // audio 
-// const mySound = document.getElementById("sound").play();
+// const mySound = document.getElementById("sound").play()
 
- 
