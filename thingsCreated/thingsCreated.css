@@ -28,6 +28,8 @@ body{
 /* intro div  */
     #h2Div { 
         display: flex;
+        margin-top: 42px;
+        margin-left: 20px;
    }
     
     h2 {

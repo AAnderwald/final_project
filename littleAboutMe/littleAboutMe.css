@@ -1,25 +1,64 @@
-li { 
-    display: block; 
-    text-align: left;
-}
-
-.navBarUl {
-    color: black;
-    background-color: #7092BF;
-    height: 55px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    left: 0;
-}
-
-#bigDiv {
-    margin-top: 100px;
-    text-align: center;
-    font-size: 10px;
-}
-
 
 body {
-    background: radial-gradient(#ecb0b0, #c3c3db, #cde7cd);
+    background: radial-gradient(#9b7979, #747488, #667266);
+    color: #e6cdaf;
+    font-weight: bolder;
+    letter-spacing: 1px;
 }
+
+/* nav bar  */
+    li { 
+        display: block; 
+        text-align: left;
+    }
+
+    .navBarUl {
+        color: black;
+        background-color: #7092BF;
+        height: 55px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+        display: flex;
+    }
+
+
+/* top div  */
+    #bigDiv {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 11px;
+    }
+
+/* image div  */
+    #imgDiv {
+        text-align: center;
+        margin-top: 42px;
+    }
+    #tOULSImg {
+        width: 13%;
+        height: auto;
+    }
+
+/* page div  */
+    #pagesDiv {
+        font-size: 10px;
+        display: flex; 
+        width: 100%;
+        margin-top: 42px;
+    }
+
+    #githubA {
+        text-align: left;
+        width: 42%;
+        margin-left: 62px;
+        font-size: 12px;
+    }
+
+    #linkedinA {
+        text-align: right;
+        width: 42%;
+        margin-right: 42px;
+        font-size: 12px;
+    }

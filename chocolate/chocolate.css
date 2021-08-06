@@ -120,6 +120,7 @@
         background-color: #FFFDCE;
         height: 280px;
         position: relative;
+        color: #3a180c;
     }
 
     #wcInfoDiv {
@@ -161,6 +162,7 @@
         background-color: #7B462D;
         height: 280px;
         position: relative;
+        color: #FFFDCE;
     }
 
     #mcInfoDiv {

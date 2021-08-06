@@ -1,0 +1,103 @@
+:root{
+    --purple: rgb(46, 15, 15);
+}
+
+body{
+    height: fit-content;
+    width: fit-content;
+    padding: 0;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    color:#ECC491;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    background-color: #e1ddec;
+}
+
+*{
+    box-sizing: border-box;                                                          
+}
+
+h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+}
+
+
+/* navbar  */
+    .navBarUl {
+        color: black;
+        background-color: #7092BF;
+        height: 55px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+
+    li { 
+        display: block; 
+        text-align: left;
+    }
+
+
+
+
+#christineP {
+    margin-top: 65px;
+    margin-left: 12px;
+    text-align: center;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+#gameBoard{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    background-color:#F19570;
+    
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #370A05;
+    font-size: 80px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #A2641B;
+    color:white;
+    border-color: #FFF8CB;
+    font-size: 16px;
+    transition: 200ms transform;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+@media screen and (max-height: 450px) {
+    .container {
+      padding-top: 15px;
+    }
+    .payText {
+      font-size: 18px;
+    }
+  }

@@ -5,8 +5,8 @@
 body {
     background: linear-gradient(-90deg, #0c0c1d ,  #0e131f );
 }
-
-.navBarUl {
+/* nav bar  */
+  .navBarUl {
     color: black;
     background-color: #7092BF;
     height: 55px;
@@ -14,14 +14,21 @@ body {
     top: 0;
     width: 100%;
     left: 0;
-}
+  }
 
-li { 
+  li { 
     display: block; 
     text-align: left;
-}
+  }
 
-h1 {
+/* image  */
+  .imgDiv {
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+
+/* header  */
+  h1 {
     margin-bottom: 90px;
     text-align: center;
     font-size: 3rem;
@@ -31,15 +38,12 @@ h1 {
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
-}
+  }
 
-.imgDiv {
-    margin-top: 100px;
-    margin-bottom: 80px;
-}
+  
+/* pick a game section  */
 
-
-#playAGame {
+  #playAGame {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -50,39 +54,39 @@ h1 {
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
-}
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 
-#sectionId {
+  #sectionId {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.BUTTON_MUT {
+  .BUTTON_MUT {
     margin-right: 35px;
     background: #C4F8FF;
     background-image: -webkit-linear-gradient(top, #C4F8FF, #B4ECFD);
@@ -106,9 +110,9 @@ h1 {
     cursor: pointer;
     width: 200px;
     height: 160px;
- }
- 
- .BUTTON_MUT:hover {
+  }
+
+  .BUTTON_MUT:hover {
     border: solid #337FED 1px;
     background: #8DC5E0;
     background-image: -webkit-linear-gradient(top, #8DC5E0, #B4D7E7);
@@ -120,4 +124,4 @@ h1 {
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
- }
+  }
