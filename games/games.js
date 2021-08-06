@@ -11,6 +11,13 @@
 
 // or
 
+//sound starts with a mouse over the image
+var soundOne= $("#sound")[0];
+$(".shallSound")
+.mouseenter(function () {
+    soundOne.play();
+});
+
 
 'use strict';
 let count = 0;
@@ -28,6 +35,5 @@ function go(e){
 } button.addEventListener('click', go);
 
 
-// audio 
-// const mySound = document.getElementById("sound").play()
+
 
