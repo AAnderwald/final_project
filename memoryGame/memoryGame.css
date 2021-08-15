@@ -27,6 +27,9 @@ body {
     margin:0;
     background: radial-gradient(#eea3a3, #9a9aec)
 }
+em {
+   font-size: 40%; 
+}
 
 .page-title {
     text-align: center;
@@ -102,6 +105,10 @@ body {
     display: flex;
     flex-direction: column;
     animation: overlay-grow 500ms forwards;
+}
+
+#small-margin {
+    margin-left: 30px;
 }
 
 @keyframes overlay-grow {

@@ -20,12 +20,30 @@
     }
 
 
+
 /*chocolate section */ 
      h2 {
         margin-top: 10px;
         margin-left: 20px;
     }
 
+    #mainDiv {
+        width: 100%;
+        left: 0;
+        right: 0;
+        position: absolute;
+        top: 55px;
+        background-color: #e0d3d3fd;
+    }
+    #learn {
+        text-align: center;
+        letter-spacing: 1px;
+        font-family: 'Gowun Batang', serif;
+        font-size: 24px;
+        color: #3a180c;
+        font-weight: bold;
+    }
+        
     .chocolateAllImg {
         border-radius: 5%;
         height: 150px;
@@ -46,7 +64,7 @@
         border-radius: 80%;
         height: 120px;
         width: auto;
-        margin-top: 15px;
+        margin-top: 0px;
     }
     .centeredImgText {
         position: absolute;
@@ -118,7 +136,7 @@
     #wcMainDiv {
         display: flow-root;
         background-color: #FFFDCE;
-        height: 260px;
+        height: 280px;
         position: relative;
         color: #3a180c;
     }
@@ -160,7 +178,7 @@
     #mcMainDiv {
         display: flow-root;
         background-color: #7B462D;
-        height: 260px;
+        height: 280px;
         position: relative;
         color: #FFFDCE;
     }
@@ -203,7 +221,7 @@
     #dcMainDiv {
         display: flow-root;
         background-color: #471D0F;
-        height: 260px;
+        height: 280px;
         position: relative;
         color: #FFFDCE;
     }

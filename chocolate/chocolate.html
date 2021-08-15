@@ -18,65 +18,67 @@
                 <li ><a href="../home.html"> Home </a></li>
             </ul>
         </nav>
-    </di>
+    </div>
 
-    <div id="recipes">
-        <div id="imageModalC">
-            <a data-modal-target="#modal">
-                <img id="mixChocolate" style="float: center" src="./chocolateImg/chocolateButton.jpg" alt="">
-            </a>    
-            <div class="centeredImgText">Try these recipes</div>
-        </div>
-        <div class="modal" id="modal">
-            <div class="modal-header">
-                <div class="title"> Chocolate Recipes </div>
-                <button data-close-button class="close-button">&times;</button> 
+    <div id="mainDiv">
+        <p id="learn"> Let's learn a little about chocolate </p>
+        <div id="recipes">
+            <div id="imageModalC">
+                <a data-modal-target="#modal">
+                    <img id="mixChocolate" style="float: center" src="./chocolateImg/chocolateButton.jpg" alt="">
+                </a>    
+                <div class="centeredImgText">Try these recipes</div>
             </div>
-            <div class="modal-body">another recipe</div>
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title"> Chocolate Recipes </div>
+                    <button data-close-button class="close-button">&times;</button> 
+                </div>
+                <div class="modal-body">another recipe</div>
+            </div>
+            <div id="overlay"> </div>
         </div>
-        <div id="overlay"> </div>
+
+    <!-- white chocolate section  -->
+        <div id="wcMainDiv">
+            <h2>White Chocolate</h2>
+            <div id="wcInfoDiv">
+                <img style="float: right" class="chocolateAllImg"  src="./chocolateImg/whiteChocolate.jpg" alt="">
+                <button type="document" id="wcBtn"> Learn More </button>
+                <p id="wcOutput"></p>
+            </div>
+            <div id="wcMake">
+                <a id="wcClick" href="https://www.alphafoodie.com/how-to-make-white-chocolate/" target="_blank"> Click here to learn how to make white chocolate</a>
+            </div>
+
+        </div>
+
+    <!-- milk chocolate section  -->
+        <div id="mcMainDiv">
+            <h2>Milk Chocolate</h2>
+            <div id="mcInfoDiv">
+                <img style="float: right" class="chocolateAllImg"  src="./chocolateImg/milkChocolate.jpg" alt="">
+                <button type="document" id="mcBtn"> Learn More </button>
+                <p id="mcOutput"></p>
+            </div>
+            <div id="mcMake">
+                <a id="mcClick" href="https://www.alphafoodie.com/how-to-make-homemade-milk-chocolate/" target="_blank"> Click here to learn how to make milk chocolate </a>
+            </div>
+        </div>
+
+    <!-- dark chocolate section  -->
+        <div id ="dcMainDiv">
+            <h2>Dark Chocolate</h2>
+            <div id="dcInfoDiv">
+                <img style="float: right" class="chocolateAllImg"  src="./chocolateImg/darkChocolate.jpg" alt="">
+                <button type="document" id="dcBtn"> Learn More </button>
+                <p id="dcOutput"></p>
+            </div>
+            <div id="dcMake">
+                <a id="dcClick" href="https://www.alphafoodie.com/how-to-make-healthy-dark-chocolate/" target="_blank"> Click here to learn how to make dark chocolate </a>
+            </div>
+        </div>
     </div>
-
-<!-- white chocolate section  -->
-    <div id="wcMainDiv">
-        <h2>White Chocolate</h2>
-        <div id="wcInfoDiv">
-            <img style="float: right" class="chocolateAllImg"  src="./chocolateImg/whiteChocolate.jpg" alt="">
-            <button type="document" id="wcBtn"> Learn More </button>
-            <p id="wcOutput"></p>
-        </div>
-        <div id="wcMake">
-            <a id="wcClick" href="https://www.alphafoodie.com/how-to-make-white-chocolate/" target="_blank"> Click here to learn how to make white chocolate</a>
-        </div>
-
-    </div>
-
-<!-- milk chocolate section  -->
-    <div id="mcMainDiv">
-        <h2>Milk Chocolate</h2>
-        <div id="mcInfoDiv">
-            <img style="float: right" class="chocolateAllImg"  src="./chocolateImg/milkChocolate.jpg" alt="">
-            <button type="document" id="mcBtn"> Learn More </button>
-            <p id="mcOutput"></p>
-        </div>
-        <div id="mcMake">
-            <a id="mcClick" href="https://www.alphafoodie.com/how-to-make-homemade-milk-chocolate/" target="_blank"> Click here to learn how to make milk chocolate </a>
-        </div>
-    </div>
-
-<!-- dark chocolate section  -->
-    <div id ="dcMainDiv">
-        <h2>Dark Chocolate</h2>
-        <div id="dcInfoDiv">
-            <img style="float: right" class="chocolateAllImg"  src="./chocolateImg/darkChocolate.jpg" alt="">
-            <button type="document" id="dcBtn"> Learn More </button>
-            <p id="dcOutput"></p>
-        </div>
-        <div id="dcMake">
-            <a id="dcClick" href="https://www.alphafoodie.com/how-to-make-healthy-dark-chocolate/" target="_blank"> Click here to learn how to make dark chocolate </a>
-        </div>
-    </div>
-
     <script src="chocolate.js"></script>
 </body>
 </html>

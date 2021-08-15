@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="memoryGame.css">
+    <script src="memoryGame.js" async></script>  <!-- tells html load JS file same times as the html file  -->
+                                                                        <!-- if page hasn't loaded yet wait for the page to load before we run the code -->
     <title> Memory Game </title>
   </head>
 
@@ -32,7 +34,7 @@
 
   <h1 class="page-title">Memory Game</h1>
   <div class="overlay-text visible"> 
-    A great big threatening button; which must not be pressed under any circumstances (unless you want to start)
+    <p id="small-margin">  A great big threatening button; which must not be pressed under any circumstances <em> (unless you want to start the game) </em> </p>
   </div>
   <div id="game-over-text" class="overlay-text"> 
     Game Over
@@ -259,8 +261,6 @@
 
 
   </div>
-
     
-    <script src="memoryGame.js"></script>
   </body>
 </html>

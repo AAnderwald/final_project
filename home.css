@@ -10,7 +10,7 @@ html {
 /* top section */
    #topDiv {
       display: flex;
-      height: 55px;
+      height: 70px;
       width: 100%;
    }
 
@@ -44,24 +44,17 @@ html {
    #lionImgDiv {
       background-color: #7092bf;
       display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
    }
+
    #lionImg {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      align-items: center;
+      overflow: hidden;
    }
-   #clouds {
-      display: block;
-      height: 300px;
-      margin-left: 20px;
-      margin-top: 80px;
-   }
-   #cloudsTwo {
-      display: block;
-      height: 250px;
-      margin-left: 20px;
-      margin-top: 5px;
-   }
+
 
 /* middle section with button */
    .buttonDiv {
@@ -70,6 +63,7 @@ html {
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 100%;
    }
 
    .BUTTON_YPO {
@@ -118,19 +112,25 @@ html {
 
    #aDiv {
       background-color: #52565C;
-      height: 50px;
+      height: 90px;
       display: flex;
       justify-content: center;
       align-items: center;
    }
 
    .button {
-      background-color: #50555a;
+      background-color: #81DB8F;
       padding-bottom: 10px;
-      color: #50555a;
-      margin-right: 10px;
+      color: #011105;
+      margin-right: 30px;
       border-width: 0;
+      border-radius: 20px;
+      height: 35px;
+      width: 160px;
+
    }
+
+   
 
 
 @media (max-width: 720px) {  /* rule applies if greater than 720px*/
