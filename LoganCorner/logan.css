@@ -299,6 +299,20 @@
     }
 
 
+#loganGameDiv {
+    height: 50px;
+    background-color: #132f33;
+    text-align: center;
+}
+
+.loganButton {
+    background-color: #51c7d6;
+    color: #132f33;
+    border-color: #51c7d6;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
     @keyframes animate {
         0% {
             transform: translateY(0) rotate(0deg);

@@ -157,7 +157,7 @@ class MixOrMatch
         clearInterval(this.countDown);                                                  //will stop the countdown if there is a victory
         this.audioController.victory();
         document.getElementById('victory-text').classList.add('visible');
-        this.hideCards();
+        // this.hideCards();                                                           //this will flip the cards over to the back. I like looking at the images.
     }
 
     shuffleCards()                                                                      //want the cards to be shuffled. this is a static function that takes no arguement

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loganMemoryGame.css">
+    <script src="loganMemoryGame.js" async></script>  
+    <title> Memory Game </title>
+  </head>
+
+
+  <body>
+    <div>
+      <nav class="navBarUl">
+          <ul>
+            <li id="navBarLi"><a href="../logan.html"> Home </a></li>
+          </ul>
+      </nav>
+  </div>
+
+  <div class="gameContainer">
+    <div class="data">
+    </div>
+  </div>
+
+  <div class="gameGrid">
+      <div class="popUp">
+        <button class="playAgain"> Play Again </button>
+      </div>
+  </div>
+
+
+  <h1 class="page-title">Memory Game</h1>
+  <div class="overlay-text visible"> 
+    <p id="small-margin"> Start the game </em> </p>
+  </div>
+  <div id="game-over-text" class="overlay-text"> 
+    Game Over
+    <span class="overlay-text-small"> Click to restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text"> 
+    Victory
+    <span class="overlay-text-small"> Click to restart</span>
+  </div>
+
+  <div class="game-container">
+      <div class="game-info-container"> 
+        <div class="game-info">
+          Time <span id="time-remaining">100</span>
+        </div>
+        <div class="game-info">
+          Flips <span id="flips">0</span>
+        </div>
+      </div>
+
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/one.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/one.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/two.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/two.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/three.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/three.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/four.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/four.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/five.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/five.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/six.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/six.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/seven.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/seven.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/eight.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/eight.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/nine.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/nine.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/ten.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/ten.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/eleven.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/eleven.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/twelve.jpg" alt="">
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-back card-face"> 
+              <img class="logo" src="./loganImages/backOfCard.jpg" alt="">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="./loganImages/twelve.jpg" alt="">
+          </div>
+        </div>
+
+
+  </div>
+    
+  </body>
+</html>
